@@ -69,6 +69,7 @@ public class CadastroUsuario extends JFrame {
 				con.conectar();
 				if(con.insereLogin(nome.getText(), cpf.getText())){
 					JOptionPane.showMessageDialog(null, "Cadastro realizado");
+					
 				}
 				else{
 					JOptionPane.showMessageDialog(null, "Problemas ao cadastrar");
